@@ -1,0 +1,7 @@
+#!C:\Users\HP\Desktop\AIML\Data Analytics Project\Oasis Data Analytics\Exploratory Data Analysis (EDA) on Retail Sales Data\venv\Scripts\python.exe
+
+import sys
+from streamline.cli import streamline_command
+
+if __name__ == '__main__':
+    streamline_command(sys.argv[1:])
