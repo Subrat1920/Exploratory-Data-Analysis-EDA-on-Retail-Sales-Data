@@ -165,18 +165,6 @@ ax.set_xlabel('Age Group')
 ax.set_ylabel('Average Total Sales Amount')
 st.pyplot(fig)
 
-# # Sales Trend Over Time
-# st.header('Monthly Sales Trend')
-# monthly_sales = retail_df.groupby('Month')['Total Amount'].sum().reset_index()
-# fig, ax = plt.subplots(figsize=(14, 7))
-# sns.lineplot(x='Month', y='Total Amount', data=monthly_sales, marker='o', color='green', ax=ax)
-# ax.set_title('Monthly Sales Trend')
-# ax.set_xlabel('Month')
-# ax.set_ylabel('Total Sales Amount')
-# ax.set_xticklabels(ax.get_xticklabels(), rotation=45)
-# st.pyplot(fig)
-
-
 
 sentences = menu_df['Category'].tolist()
 sentence_as_a_string = ' '.join(sentences)
